@@ -1,0 +1,16 @@
+<script type="text/ng-template" id="popover.html">
+    <div ng-controller="popoverCtrl">
+        <button tab-index="-1" type="button" class="btn-p btn-mini btn-p-default" ng-click="addButton()" bs-tooltip data-title="Add User Story" data-trigger="hover" data-type="info">
+            <i class="fa fa-plus"></i>
+        </button>
+        <button tab-index="-1" type="button" class="btn-p btn-mini btn-p-default" ng-click="infoButton()" bs-tooltip data-title="User Story Info" data-trigger="hover" data-type="info">
+            <i class="fa fa-info fa-fw"></i>
+        </button>
+        <button tab-index="-1" type="button" class="btn-p btn-mini btn-p-default">
+            <i class="fa fa-link"></i>
+        </button>
+        <button tab-index="-1" type="button" class="btn-p btn-mini btn-p-default" bs-tooltip data-title="Delete User Story" data-trigger="hover" data-type="info">
+            <i class="fa fa-trash-o fa-fw"></i>
+        </button>
+    </div>
+</script>
